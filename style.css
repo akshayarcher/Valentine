@@ -1,0 +1,47 @@
+ body {
+    /* computer size */
+    background-image: url(i1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    
+}
+
+@media only screen and (max-width: 1221px) {
+    body {
+        /* mobile and tab */
+        background-color: green;
+        background-image: url(i1.jpg);
+        height: 100vb;
+        background-size: cover;
+    }
+}
+
+.main {
+    background-color: rgba(211, 90, 130, 0.532);
+    border: red 1px solid;
+    display: inline-block;
+    left: 50%;
+    top:50%;
+    position: absolute;
+    padding: 3%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+.text{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.btn{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.yes{
+    text-decoration: none;
+    color: white;
+}
+
+
